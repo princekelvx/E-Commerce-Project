@@ -3,7 +3,9 @@
 #### How To Use
 
 * Download the zip and unzip in destination of your choice.
-* Open the destination folder in VSCode and navigate to the terminal or open up the destination folder via your favourite terminal and use the command:
+* Open the destination folder in VSCode and navigate to the terminal or open up the destination folder via your favourite terminal and use the commands:
+`node install`
+followed by
 `node index.js`
 * After which you can navigate to the browser, on "localhost:3000" and look around.
 
