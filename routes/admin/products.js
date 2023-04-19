@@ -30,8 +30,8 @@ router.post(
   async (req, res) => {
     const image = req.file.buffer.toString("base64");
     const { title, price } = req.body;
-    res.redirect("/admin/products");
     await productsRepo.create({ title, price, image });
+    res.redirect("/admin/products");
   }
 );
 
